@@ -1,0 +1,23 @@
+body{
+    color: #999;
+    display: flex;
+    justify-content: center;
+}
+@mixin wireframe(){
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 4px;
+    color: #999;
+}
+input{
+    @include wireframe;
+}
+button{
+    @include wireframe;
+    height: 34px;
+}
+
+a{
+    color: #999;
+    text-decoration: none;
+}
